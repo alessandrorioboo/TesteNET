@@ -1,0 +1,5 @@
+C:\0 Fontes\Laboratorio\TesteNET\TesteNet.DataTransfers\bin\Debug\TesteNet.DataTransfer.dll
+C:\0 Fontes\Laboratorio\TesteNET\TesteNet.DataTransfers\bin\Debug\TesteNet.DataTransfer.pdb
+C:\0 Fontes\Laboratorio\TesteNET\TesteNet.DataTransfers\obj\Debug\TesteNet.DataTransfer.csproj.CoreCompileInputs.cache
+C:\0 Fontes\Laboratorio\TesteNET\TesteNet.DataTransfers\obj\Debug\TesteNet.DataTransfer.dll
+C:\0 Fontes\Laboratorio\TesteNET\TesteNet.DataTransfers\obj\Debug\TesteNet.DataTransfer.pdb

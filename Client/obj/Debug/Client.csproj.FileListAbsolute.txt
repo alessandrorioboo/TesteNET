@@ -1,0 +1,7 @@
+C:\0 Fontes\Laboratorio\TesteNET\Client\bin\Debug\Client.exe.config
+C:\0 Fontes\Laboratorio\TesteNET\Client\bin\Debug\Client.exe
+C:\0 Fontes\Laboratorio\TesteNET\Client\bin\Debug\Client.pdb
+C:\0 Fontes\Laboratorio\TesteNET\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\0 Fontes\Laboratorio\TesteNET\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\0 Fontes\Laboratorio\TesteNET\Client\obj\Debug\Client.exe
+C:\0 Fontes\Laboratorio\TesteNET\Client\obj\Debug\Client.pdb
