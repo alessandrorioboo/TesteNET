@@ -714,3 +714,69 @@ Parâmetros afetados são:
    logtoconsole = 
    logfile = C:\0 Fontes\Laboratorio\TesteNET\Client\bin\Debug\TesteNET.Client.InstallLog
    assemblypath = C:\0 Fontes\Laboratorio\TesteNET\Client\bin\Debug\TesteNET.Client.exe
+Instalando o assembly 'C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.InstallLog
+   assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe
+Instalando o serviço TesteNET.Client...
+Serviço TesteNET.Client foi instalado com êxito.
+Criando a origem de EventLog TesteNET.Client no log Application...
+Confirmando o assembly 'C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.InstallLog
+   assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe
+Desinstalando o assembly 'C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.InstallLog
+   assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe
+Removendo a origem do EventLog TesteNET.Client.
+Serviço TesteNET.Client está sendo removido do sistema...
+Serviço TesteNET.Client foi removido com êxito do sistema.
+Desinstalando o assembly 'C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.InstallLog
+   assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe
+Removendo a origem do EventLog TesteNET.Client.
+Aviso: a origem TesteNET.Client não está registrada no computador local.
+Serviço TesteNET.Client está sendo removido do sistema...
+Ocorreu uma exceção durante a desinstalação do instalador System.ServiceProcess.ServiceInstaller.
+System.ComponentModel.Win32Exception: O serviço especificado não existe como serviço instalado
+Ocorreu uma exceção ao desinstalar. Essa exceção será ignorada e a desinstalação continuará. Mas talvez o aplicativo não seja totalmente desinstalado após a conclusão da desinstalação.
+Instalando o assembly 'C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.InstallLog
+   assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe
+Instalando o serviço TesteNET.Client...
+Serviço TesteNET.Client foi instalado com êxito.
+Criando a origem de EventLog TesteNET.Client no log Application...
+Confirmando o assembly 'C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.InstallLog
+   assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe
+Desinstalando o assembly 'C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.InstallLog
+   assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe
+Removendo a origem do EventLog TesteNET.Client.
+Serviço TesteNET.Client está sendo removido do sistema...
+Serviço TesteNET.Client foi removido com êxito do sistema.
+Instalando o assembly 'C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.InstallLog
+   assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe
+Instalando o serviço TesteNET.Client...
+Serviço TesteNET.Client foi instalado com êxito.
+Criando a origem de EventLog TesteNET.Client no log Application...
+Confirmando o assembly 'C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.InstallLog
+   assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe

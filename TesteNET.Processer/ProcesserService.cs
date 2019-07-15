@@ -29,6 +29,7 @@ namespace ITSingular.TesteNET.Processer
         protected override void OnStart(string[] args)
         {
             _timerGetPersistMachineInformation = new System.Timers.Timer();
+            //TODO: Set to 10 seconds
             _timerGetPersistMachineInformation.Interval = 10 * 1000; // 10 seconds
             _timerGetPersistMachineInformation.Elapsed += new System.Timers.ElapsedEventHandler(timerGetPersistMachineInformation);
             _timerGetPersistMachineInformation.Start();

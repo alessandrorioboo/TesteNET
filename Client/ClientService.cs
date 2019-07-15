@@ -1,5 +1,4 @@
-﻿using ITSingular.TesteNET.DataTransfer;
-using ITSingular.TesteNET.DataTransfer.Entityes;
+﻿using ITSingular.TesteNET.DataTransfer.Entityes;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -9,9 +8,7 @@ using System.Management;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.ServiceProcess;
-using System.Threading.Tasks;
 using System.Timers;
-
 
 namespace ITSingular.TesteNET.Client
 {
@@ -54,11 +51,9 @@ namespace ITSingular.TesteNET.Client
                 client.DefaultRequestHeaders.Accept.Add(
                     new MediaTypeWithQualityHeaderValue("application/json"));
 
-
-                //RunAsync().GetAwaiter().GetResult();
-
                 _timerGetMachineInformation = new System.Timers.Timer();
-                _timerGetMachineInformation.Interval = 60 * 1000; // 1 minute
+                //TODO: Set to 1minute
+                _timerGetMachineInformation.Interval = 20 * 1000; // 1 minute
                 _timerGetMachineInformation.Elapsed += new System.Timers.ElapsedEventHandler(timerGetMachineInformation);
                 _timerGetMachineInformation.Start();
             }
@@ -81,28 +76,28 @@ namespace ITSingular.TesteNET.Client
             IList<string> appListInMachineClient = new List<string>();
 
 
-            ManagementObjectSearcher p = new ManagementObjectSearcher("SELECT * FROM Win32_Product");
-            foreach (ManagementObject program in p.Get())
-            {
-                if (program != null && program.GetPropertyValue("Name") != null)
-                {
-                    appListInMachineClient.Add(program.GetPropertyValue("Name").ToString());
-                }
-            }
-
-
-            //using (Microsoft.Win32.RegistryKey key = Registry.LocalMachine.OpenSubKey(_registry_key))
+            //ManagementObjectSearcher p = new ManagementObjectSearcher("SELECT * FROM Win32_Product");
+            //foreach (ManagementObject program in p.Get())
             //{
-            //    foreach (string subkey_name in key.GetSubKeyNames())
+            //    if (program != null && program.GetPropertyValue("Name") != null)
             //    {
-            //        using (RegistryKey subkey = key.OpenSubKey(subkey_name))
-            //        {
-            //            var displayName = subkey.GetValue("DisplayName");
-            //            if (displayName != null)
-            //                appListInMachineClient.Add(displayName.ToString());
-            //        }
+            //        appListInMachineClient.Add(program.GetPropertyValue("Name").ToString());
             //    }
             //}
+
+
+            using (Microsoft.Win32.RegistryKey key = Registry.LocalMachine.OpenSubKey(_registry_key))
+            {
+                foreach (string subkey_name in key.GetSubKeyNames())
+                {
+                    using (RegistryKey subkey = key.OpenSubKey(subkey_name))
+                    {
+                        var displayName = subkey.GetValue("DisplayName");
+                        if (displayName != null)
+                            appListInMachineClient.Add(displayName.ToString());
+                    }
+                }
+            }
 
             var machineInformation = new MachineInformation
             {

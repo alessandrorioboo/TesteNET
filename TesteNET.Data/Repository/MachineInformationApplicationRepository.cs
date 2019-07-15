@@ -17,5 +17,31 @@ namespace ITSingular.TesteNET.Data.Repository
         {
             Db.MachineInformationApplication.Where(c => c.MachineInformationId == idMachineInformation).Delete();
         }
+
+        public IList<MachineInformationApplication> GetTop10ApplicationLeastOccurrence()
+        {
+            IList<MachineInformationApplication> result = new List<MachineInformationApplication>();
+            var query = (from p in Db.MachineInformationApplication
+                          group p by p.Application into g
+                          orderby g.Count()
+                          select new
+                          {
+                              Application = g.Key,
+                              QttOccours = g.Count()
+                          }).Take(10).ToList();
+
+            query.ForEach(p => result.Add(new
+                MachineInformationApplication
+            {
+                Application = p.Application,
+                QttOccours = p.QttOccours
+            }));
+
+            //var result = (from p in Db.MachineInformationApplication
+            //              orderby p.Application descending
+            //             select p).Take(10).ToList();
+
+            return result.OrderBy(p => p.QttOccours).ThenBy(p => p.Application).ToList();
+        }
     }
 }
