@@ -53,7 +53,7 @@ namespace ITSingular.TesteNET.Client
 
                 _timerGetMachineInformation = new System.Timers.Timer();
                 //TODO: Set to 1minute
-                _timerGetMachineInformation.Interval = 20 * 1000; // 1 minute
+                _timerGetMachineInformation.Interval = 60 * 1000; // 1 minute
                 _timerGetMachineInformation.Elapsed += new System.Timers.ElapsedEventHandler(timerGetMachineInformation);
                 _timerGetMachineInformation.Start();
             }
@@ -75,7 +75,6 @@ namespace ITSingular.TesteNET.Client
             var utlDateTime = DateTime.UtcNow;
             IList<string> appListInMachineClient = new List<string>();
 
-
             //ManagementObjectSearcher p = new ManagementObjectSearcher("SELECT * FROM Win32_Product");
             //foreach (ManagementObject program in p.Get())
             //{
@@ -84,7 +83,6 @@ namespace ITSingular.TesteNET.Client
             //        appListInMachineClient.Add(program.GetPropertyValue("Name").ToString());
             //    }
             //}
-
 
             using (Microsoft.Win32.RegistryKey key = Registry.LocalMachine.OpenSubKey(_registry_key))
             {

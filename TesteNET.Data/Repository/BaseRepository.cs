@@ -37,6 +37,7 @@ namespace ITSingular.TesteNET.Data.Repository
             {
                 DbSet.Add(obj);
                 SaveChanges();
+                Deatach(obj);
             }
             catch (Exception ex)    
             {

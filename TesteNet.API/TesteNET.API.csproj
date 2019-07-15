@@ -162,6 +162,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Controllers\MachineInformationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -253,6 +254,10 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TesteNET.Application\TesteNET.Application.csproj">
+      <Project>{39D8EC7B-CC6D-4AC2-B764-BA5CE60C7CCF}</Project>
+      <Name>TesteNET.Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TesteNET.Domain\TesteNET.Domain.csproj">
       <Project>{31251D76-8753-45FE-9EC5-D412C2DD5B3B}</Project>
       <Name>TesteNET.Domain</Name>
