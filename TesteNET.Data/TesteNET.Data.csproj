@@ -82,8 +82,13 @@
       <DependentUpon>201907141544156_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Migrations\Manual Migration\" />
+    <Content Include="Migrations\Manual Migration\001 - Initial Migration.sql" />
+    <Content Include="Migrations\Manual Migration\002 - Rename Field Application.sql" />
+    <Content Include="Migrations\Manual Migration\003 - Machine Name Unique.sql" />
+    <Content Include="Migrations\Manual Migration\004 - Add UserAuthorization.sql" />
+    <Content Include="Migrations\Manual Migration\scriptTesteNET.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
