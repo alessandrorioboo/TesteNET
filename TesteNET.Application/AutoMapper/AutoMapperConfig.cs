@@ -19,6 +19,9 @@ namespace TesteNET.Application
 
                 cfg.CreateMap<MachineInformationAppService, MachineInformationApplicationViewModel>();
                 cfg.CreateMap<MachineInformationApplicationViewModel, MachineInformationAppService>();
+
+                cfg.CreateMap<UserAuthorization, UserAuthorizationViewModel>();
+                cfg.CreateMap<UserAuthorizationViewModel, UserAuthorization>();
             });
         }
     }

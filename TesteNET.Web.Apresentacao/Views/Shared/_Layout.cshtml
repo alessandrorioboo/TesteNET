@@ -22,7 +22,11 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Start", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Dashboard", "Index", "Dashboard")</li>
+                    <li>@Html.ActionLink("Users", "Index", "UserAuthorization")</li>
+                    @if (@User.IsInRole("Administrators"))
+                    {
+                        <li>@Html.ActionLink("Dashboard", "Index", "Dashboard")</li>
+                    }
                 </ul>
                 <p class="nav navbar-text navbar-right">Hello, @User.Identity.Name!</p>
             </div>

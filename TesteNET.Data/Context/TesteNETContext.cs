@@ -14,16 +14,14 @@ namespace ITSingular.TesteNET.Data.Context
             ((IObjectContextAdapter)this).ObjectContext.CommandTimeout = 42000;
             this.Configuration.UseDatabaseNullSemantics = true;
             //this.Database.Log = msg => Trace.WriteLine(msg);
-            //this.Configuration.LazyLoadingEnabled = true;
-            // the terrible hack ( devido ao erro que ocorre no windows service X EF).
-            //var ensureDLLIsCopied = System.Data.Entity.SqlServer.SqlProviderServices.Instance;
             var ensureDLLIsCopied = System.Data.Entity.SqlServer.SqlProviderServices.Instance;
         }
 
-        #region Configuracacao
+        #region Entities
         public IDbSet<MachineInformation> MachineInformation { get; set; }
         public IDbSet<MachineInformationApplication> MachineInformationApplication { get; set; }
-        #endregion Configuracacao
+        public IDbSet<UserAuthorization> UserAuthorization { get; set; }
+        #endregion Entities
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -45,7 +43,8 @@ namespace ITSingular.TesteNET.Data.Context
 
             modelBuilder.Configurations.Add(new MachineInformationConfiguration());
             modelBuilder.Configurations.Add(new MachineInformationApplicationConfiguration());
-            
+            modelBuilder.Configurations.Add(new UserAuthorizationConfiguration());
+
             #endregion Add Configurations
 
             #region Model Creating

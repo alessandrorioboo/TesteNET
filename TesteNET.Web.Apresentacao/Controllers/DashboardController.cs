@@ -13,6 +13,7 @@ using TesteNET.Application.ViewModel;
 
 namespace TesteNET.Web.Apresentacao.Controllers
 {
+    [Authorize(Roles = "Administrators")]
     public class DashboardController : Controller
     {
         private readonly DashboardAppService _application = new DashboardAppService();

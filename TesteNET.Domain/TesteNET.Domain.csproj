@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\UserAuthorization.cs" />
     <Compile Include="Entities\MachineInformation.cs" />
     <Compile Include="Entities\MachineInformationApplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

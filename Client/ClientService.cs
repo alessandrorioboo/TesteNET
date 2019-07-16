@@ -52,7 +52,6 @@ namespace ITSingular.TesteNET.Client
                     new MediaTypeWithQualityHeaderValue("application/json"));
 
                 _timerGetMachineInformation = new System.Timers.Timer();
-                //TODO: Set to 1minute
                 _timerGetMachineInformation.Interval = 60 * 1000; // 1 minute
                 _timerGetMachineInformation.Elapsed += new System.Timers.ElapsedEventHandler(timerGetMachineInformation);
                 _timerGetMachineInformation.Start();

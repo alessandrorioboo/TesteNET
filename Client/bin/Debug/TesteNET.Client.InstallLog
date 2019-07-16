@@ -801,3 +801,11 @@ Parâmetros afetados são:
    logtoconsole = 
    logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.InstallLog
    assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe
+Desinstalando o assembly 'C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.InstallLog
+   assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\Client\bin\Debug\TesteNET.Client.exe
+Removendo a origem do EventLog TesteNET.Client.
+Serviço TesteNET.Client está sendo removido do sistema...
+Serviço TesteNET.Client foi removido com êxito do sistema.

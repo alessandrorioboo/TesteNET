@@ -493,3 +493,11 @@ Parâmetros afetados são:
    logtoconsole = 
    logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\TesteNET.Processer\bin\Debug\TesteNET.Processer.InstallLog
    assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\TesteNET.Processer\bin\Debug\TesteNET.Processer.exe
+Desinstalando o assembly 'C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\TesteNET.Processer\bin\Debug\TesteNET.Processer.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   logfile = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\TesteNET.Processer\bin\Debug\TesteNET.Processer.InstallLog
+   assemblypath = C:\0 Fontes\Laboratorio\ITSingulat.TesteNet\TesteNET\TesteNET.Processer\bin\Debug\TesteNET.Processer.exe
+Removendo a origem do EventLog TesteNET.Processer.
+Serviço TesteNET.Processer está sendo removido do sistema...
+Serviço TesteNET.Processer foi removido com êxito do sistema.
